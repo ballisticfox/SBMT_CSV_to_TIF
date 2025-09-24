@@ -227,6 +227,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+# Examples, with the CSVs called phobos_low.csv and phobos_high.csv for testing purposes
 # python image_script.py phobos_low.csv --col Albedo --bits 16 --width 2048 --height 1024 --interp bilinear --gpu metal --out albedo_low.tif 
 # python image_script.py phobos_high.csv --col Albedo --bits 16 --width 16384 --height 8192 --interp nearest --gpu metal --out albedo_high.tif 
 # python image_script.py phobos_high.csv --col Albedo --bits 16 --width 16384 --height 8192 --interp bilinear --gpu metal --out albedo_high_bi.tif 
